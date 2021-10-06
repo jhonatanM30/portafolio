@@ -1,6 +1,6 @@
 import React from "react";
 
-export const Entertainment = () => {
+export default function Entertainment () {
   return (
     <div className="row">
       <div className="col-12">
@@ -12,8 +12,8 @@ export const Entertainment = () => {
         </p>
       </div>
       <div className="col-12">
-          <a href="https://gif-heroes.netlify.app" className="btn btn-primary">Ir a entretenimiento</a>
+          <a href="https://gif-heroes.netlify.app" className="btn  btn-sm">Ir a entretenimiento</a>
       </div>
-    </div>
+      </div>
   );
 };

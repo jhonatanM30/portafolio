@@ -3,7 +3,7 @@ import { images } from "../../helpers/images";
 export const About = () => {
   return (
     <div className="col-12">
-      <div className="row mt-5">
+      <div className="row mt-5 animate__animated animate__fadeInDown">
         <div className="col-8 col-sm-7 col-lg-6 col-first">
           <h4>
             <i class="far fa-address-card"></i> ACERCA DE MI

@@ -1,25 +1,26 @@
+import React, { Fragment } from 'react'
 import '../src/styles/basic-Information.css';
-import { Ability } from './components/basicInformation/Ability';
-import { About } from './components/basicInformation/About';
-import { Education } from './components/basicInformation/Education';
-import { Experience } from './components/basicInformation/Experience';
+import {
+    BrowserRouter as Router,
+    Switch, Redirect, Route
+} from "react-router-dom";
+
+import { Home } from './components/home/Home'
 
 
-function App() {
-  return (
-    <div className="container mt-5">
-      <div className="row justify-content-center">
-        <div className="name">
-          <h2>Jhonatan Alexander Cuesta Marín</h2>
-          <h4>Desarrollador De Software</h4>
-        </div>
-        <About />
-        <Education/>
-        <Experience/>  
-        <Ability/>
-      </div>
-    </div>
-  );
+ const App = () => {
+
+    return (
+        <Router>
+            <Fragment>
+                <Switch >                                    
+                    <Route exact path="/" component={Home} />                    
+                    <Redirect to="/" />
+                </Switch>
+            </Fragment>
+        </Router>
+    )
+
 }
 
 export default App;
