@@ -2,5 +2,15 @@
   color: rgb(255, 255, 255);
   font-weight: bold;
   background-color: rgb(92, 0, 0);
-  margin-bottom: 1rem;
+  margin-bottom: 1rem;  
+}
+
+@media (max-width: 360px) {
+  .btn-sm {    
+    font-size: 10px;  
+    margin-bottom: 0.5rem;
+  }
+  .title_job{
+    font-size: 15px;
+  }
 }

@@ -2,11 +2,11 @@ import React from "react";
 import { images } from "../../helpers/images";
 export const About = () => {
   return (
-    <div className="col-12">
+    <div className="col-12 height">
       <div className="row mt-5 animate__animated animate__fadeInDown">
-        <div className="col-8 col-sm-7 col-lg-6 col-first">
+        <div className="col-12  col-lg-6 col-first">
           <h4>
-            <i class="far fa-address-card"></i> ACERCA DE MI
+            <i className="far fa-address-card"></i> ACERCA DE MI
           </h4>
           <hr/>
           <p>
@@ -22,7 +22,7 @@ export const About = () => {
             contribuye a crecer mutuamente.
           </p>
         </div>
-        <div className="col-4 col-sm-5  col-lg-5 col-second">
+        <div className="col-12  col-lg-5 col-second">
           <img
             src={images(`./aboutme.png`).default}
             className="card-img"

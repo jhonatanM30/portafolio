@@ -4,7 +4,7 @@ export default function Entertainment () {
   return (
     <div className="row">
       <div className="col-12">
-        <h5>Entretenimiento</h5>
+        <h5 className="title_job">Entretenimiento</h5>
         <p>
           En la pagina de entretenimiento puedes divertirte buscando los mejores
           GIF's de tus personajes favoritos, ademas puedes consultar los

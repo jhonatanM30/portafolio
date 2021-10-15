@@ -15,7 +15,7 @@ export const Jobs = () => {
     <div className="row">
       <div className="col-12">
         <h4>
-          <i class="fas fa-business-time"></i> PORTAFOLIO
+          <i className="fas fa-business-time"></i> PORTAFOLIO
         </h4>
         <hr />
         <button className="btn btn-sm" onClick={changeStateJobs}>

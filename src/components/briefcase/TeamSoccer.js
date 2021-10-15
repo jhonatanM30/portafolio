@@ -4,7 +4,7 @@ export default function TeamSoccer() {
   return (
     <div className="row">
       <div className="col-12">
-        <h5>Team Soccer</h5>
+        <h5 className="title_job">Team Soccer</h5>
         <p>
           En la pagina Team Soccer puedes crear la lista de jugadores de tu
           preferencia estilo album, consultar equipos, sus jugadores, resultados
