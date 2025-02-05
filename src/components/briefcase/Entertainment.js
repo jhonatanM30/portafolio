@@ -12,7 +12,7 @@ export default function Entertainment () {
         </p>
       </div>
       <div className="col-12">
-          <a href="https://gif-heroes.netlify.app" className="btn  btn-sm">Ir a entretenimiento</a>
+          <a href="https://gif-heroes.netlify.app" className="btn  btn-sm" target="_blank">Ir a entretenimiento</a>
       </div>
       </div>
   );

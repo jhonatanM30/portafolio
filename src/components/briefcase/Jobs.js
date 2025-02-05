@@ -1,6 +1,7 @@
 import React, { Fragment, useState } from "react";
 import Entertainment from "./Entertainment";
 import TeamSoccer from "./TeamSoccer";
+import Barber from "./Barber";
 
 import "../../styles/briefcase.css";
 
@@ -31,6 +32,9 @@ export const Jobs = () => {
           <div className="col-12 col-sm-5 col-second animate__animated animate__backInRight">
             <TeamSoccer></TeamSoccer>
           </div>
+            <div className="col-12 col-sm-5 col-second animate__animated animate__backInRight">
+                      <Barber></Barber>
+                    </div>
         </Fragment>        
       }
     </div>

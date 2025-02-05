@@ -12,7 +12,7 @@ export default function TeamSoccer() {
         </p>
       </div>
       <div className="col-12">
-        <a href="https://team-soccer-app.netlify.app" className="btn btn-sm">
+        <a href="https://team-soccer-app.netlify.app" className="btn btn-sm" target="_blank">
           Ir a TeamSoccer
         </a>
       </div>
