@@ -11,7 +11,7 @@ export default function Barber() {
         </p>
       </div>
       <div className="col-12">
-        <a href="https://jhonatanm30.github.io/barberia/reto-Barberia/page/index.html" className="btn btn-sm" target="_blank">
+        <a href="https://jhonatanm30.github.io/barberia/reto-Barberia/page/index.html" className="btn btn-sm" target="_blank" rel="noopener noreferrer">
           Ir a la Barberia.
         </a>
       </div>
